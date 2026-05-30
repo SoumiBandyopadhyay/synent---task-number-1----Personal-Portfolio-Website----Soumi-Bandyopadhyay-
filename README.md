@@ -61,10 +61,6 @@ Provides contact information and an interactive button.
 - Using JavaScript for interactivity
 - Organizing a front-end project
 
-## 📸 Screenshot
-
-Add a screenshot of your website here after uploading it.
-
 ## 👩‍💻 Author
 
 **Soumi Bandyopadhyay**
