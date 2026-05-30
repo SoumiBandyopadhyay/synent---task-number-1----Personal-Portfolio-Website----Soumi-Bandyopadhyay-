@@ -1,0 +1,142 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family: Arial, sans-serif;
+    color:white;
+    min-height:100vh;
+
+    /* Space Background */
+    background-color:#050816;
+
+    background-image:
+    radial-gradient(circle at 10% 20%, white 1px, transparent 2px),
+    radial-gradient(circle at 30% 40%, white 1.5px, transparent 2px),
+    radial-gradient(circle at 50% 10%, white 1px, transparent 2px),
+    radial-gradient(circle at 70% 30%, white 1.5px, transparent 2px),
+    radial-gradient(circle at 90% 15%, white 1px, transparent 2px),
+    radial-gradient(circle at 20% 80%, white 1px, transparent 2px),
+    radial-gradient(circle at 60% 70%, white 1.5px, transparent 2px),
+    radial-gradient(circle at 80% 85%, white 1px, transparent 2px),
+    radial-gradient(circle at 40% 90%, white 1.5px, transparent 2px),
+    linear-gradient(to bottom, #050816, #0b1026, #1a1f4d);
+
+    background-attachment: fixed;
+}
+
+/* Header */
+header{
+    text-align:center;
+    padding:60px 20px;
+    background:rgba(20, 30, 80, 0.8);
+    color:#ffffff;
+    box-shadow:0 4px 15px rgba(0,0,0,0.5);
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:10px;
+    color:#8ec5ff;
+}
+
+header p{
+    font-size:20px;
+}
+
+/* Sections */
+section{
+    width:85%;
+    max-width:850px;
+    margin:25px auto;
+    padding:30px;
+
+    background:rgba(255,255,255,0.08);
+    backdrop-filter: blur(8px);
+
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.4);
+    transition:0.3s;
+}
+
+section:hover{
+    transform:translateY(-5px);
+}
+
+/* Headings */
+h2{
+    color:#8ec5ff;
+    margin-bottom:15px;
+    border-bottom:2px solid #4da6ff;
+    padding-bottom:8px;
+}
+
+/* Paragraphs */
+p{
+    line-height:1.8;
+}
+
+/* Skills */
+ul{
+    padding-left:25px;
+}
+
+li{
+    margin-bottom:10px;
+}
+
+/* Button */
+.btn{
+    background:#4da6ff;
+    color:white;
+    border:none;
+    padding:12px 24px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:15px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#2d7fd6;
+    transform:scale(1.05);
+}
+
+/* Message */
+#message{
+    margin-top:15px;
+    color:#8ec5ff;
+    font-weight:bold;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    background:rgba(20, 30, 80, 0.8);
+    color:white;
+    margin-top:30px;
+}
+
+/* Responsive */
+@media (max-width:768px){
+
+    header h1{
+        font-size:32px;
+    }
+
+    header p{
+        font-size:18px;
+    }
+
+    section{
+        width:92%;
+        padding:20px;
+    }
+}
